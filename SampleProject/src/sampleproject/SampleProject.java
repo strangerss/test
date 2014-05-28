@@ -16,7 +16,12 @@ public class SampleProject {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println(getMsg());
     }
+    
+    public static String getMsg(){
+        return "test message";
+    }
+                                
     
 }
